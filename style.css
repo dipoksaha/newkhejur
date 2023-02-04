@@ -1,0 +1,197 @@
+*{
+    font-family: 'Jost', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Unbounded', cursive;
+font-family: 'Work Sans', sans-serif;
+}
+.header-icon{
+  padding-top: 20px;
+}
+.header-icon a{
+  margin-left: 10px;
+  font-size: 20px;
+}
+.header-section a:hover{
+  color: orangered;
+
+}
+
+.header1-width{
+    width: 90%;
+   
+}
+.header-top-text{
+    text-align: center;
+    padding-top: 20px;
+}
+.header-login-and-contact{
+    text-align: right;
+    padding-top: 20px;
+}
+.header-menu{
+    text-align: center;
+}
+.header-section{
+  background: #000;
+}
+.header-section a{
+  color: #fff;
+  text-decoration: none;
+}
+.header-section p{
+  color: #fff;
+}
+.header-login-and-contact p{}
+.header-login-and-contact p a{
+  margin-left: 20px;
+}
+.header-menu a{
+ margin-left: 20px;
+ position: relative;
+}
+.header-menu{
+  margin-top: 30px;
+}
+.header-logo img{
+  width: 150px;
+  padding-bottom: 10px;
+}
+.header-search-and{
+  margin-top: 20px;
+}
+.header-menu a::after{
+  content: "";
+  position: absolute;
+  background: orange;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  top: 25px;
+  transition: .5s;
+}
+.header-menu a:hover::after{
+  width: 100%;
+}
+/* hero-banner-section */
+
+.hero-banner-section{
+  background: url(./Home_Banner_2048X1024_PinkPack_1950x\ -\ Copy.jpg);
+  background-position:  fixed center;
+  background-size: cover;
+  height: 1000px;
+}
+/* experiance-Omra */
+.experiance-Omra{
+  padding: 60px 0;
+}
+.experiance-Omra .next-p{
+  padding-top: 20px;
+}
+.experiance-Omra p{
+  font-size: 18px;
+}
+.experiance-Omra h2{
+  font-weight: 700;
+}
+.scrol-img img{
+  max-width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.product-item-1 {
+text-align: center;
+box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+border-radius: 5px;
+}
+.scrol-icon span{
+  color: orange;
+}
+.another-product{
+  text-align: center;
+  padding: 5px 0 40px 0 ;
+}
+.another-product span{
+  color: orange;
+ 
+}
+.another-product h2{
+  font-weight: 700;
+  padding: 20px 0;
+}
+.packet-section {
+  text-align: center;
+}
+.packet-section h2{
+  font-weight: 700;
+  padding: 10px 0;
+}
+.packet-section h2 span{
+  color: orangered;
+}
+
+/* fotter-section-2 */
+.fotter-section-2{
+  text-align: center;
+  padding: 10px 0;
+  background: #5a4e8c;
+}
+.fotter-section-2 p{
+  color: #fff;
+}
+
+.fotter-section-2 span {
+  color: red;
+  
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+
+/* fotter-contact-section */
+.fotter-contact-section{
+  background: #5a4e8c;
+  padding: 50px 0;
+}
+.fotter-contact-section p{
+  color: #8d9acd;
+  padding: 20px 0;
+}
+
+.s-icon span a {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  background: #645893;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 18px;
+}
+.s-icon span a:hover{
+  background: orangered;
+  color: black;
+}
+.fotter-contact-text{}
+.fotter-contact-text h2{
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+}
+.fotter-contact-text a{
+  text-decoration: none;
+  color: #aea7d1;
+  display: block;
+  line-height: 30px;
+}
+.fotter-contact-text a:hover{
+  text-decoration: underline;
+}
